@@ -1,0 +1,113 @@
+.header-company-profile, .content-wrapper-company-profile{
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+  }
+
+  .hr-line {
+    flex-grow: 1;
+    margin-top: 39px;
+    margin-left: 10px;
+    height: 0;
+    border-top: 2px solid hsl(212deg 97% 57%);
+}
+
+.services-line {
+  position: relative;
+  left: 100%;
+  top: -1.5em;
+  width: 1060px;
+  border: 1px solid black;
+  transform: translateX(-100%);
+}
+
+/* Mengatur tampilan pada layar dengan lebar kurang dari 768px */
+@media only screen and (max-width: 767px) {
+  .services-line {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transform: none;
+    border: 1px solid black;
+  }
+}
+
+.subs-line {
+  position: relative;
+  left: 100%;
+  top: -1.5em;
+  width: 1015px;
+  border: 1px solid black;
+  transform: translateX(-100%);
+}
+
+/* Mengatur tampilan pada layar dengan lebar kurang dari 768px */
+@media only screen and (max-width: 767px) {
+  .subs-line {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transform: none;
+    border: 1px solid black;
+  }
+}
+
+.clients-line {
+  position: relative;
+  left: 100%;
+  top: -1.5em;
+  width: 1080px;
+  border: 1px solid black;
+  transform: translateX(-100%);
+}
+
+/* Mengatur tampilan pada layar dengan lebar kurang dari 768px */
+@media only screen and (max-width: 767px) {
+  .clients-line {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transform: none;
+    border: 1px solid black;
+  }
+}
+
+.nav-link img:hover {
+  filter: grayscale(100%) hue-rotate(180deg);
+}
+
+.ketik-animation {
+  opacity: 0;
+  animation: typing 5s forwards;
+}
+
+@keyframes typing {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    width: auto;
+  }
+}
+
+.turun{
+  padding-top: 50px;
+}
+
+.menurun{
+    margin-top: 75px;
+}
+
+.blue-text {
+  color: #0059FF;
+}
+
+
+
+
+
+

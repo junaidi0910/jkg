@@ -108,7 +108,7 @@ html .custom-title-with-icon-light:before {
 }
 
 a {
-	color: #e41645;
+	color: #0059FF;
 }
 
 a:hover {
@@ -165,7 +165,12 @@ html .text-hover-quaternary:hover {
 
 html .text-color-dark,
 html .text-dark {
-	color: #292929 !important;
+	color: #000000 !important;
+}
+
+html .text-color-white,
+html .text-white {
+	color: #FFFFFF !important;
 }
 
 html .text-color-hover-dark:hover,
@@ -1136,8 +1141,8 @@ html .nav-pills-light > li.active > a:focus {
 }
 
 .sort-source.sort-source-style-3 > li.active > a {
-	border-bottom-color: #e41645 !important;
-	color: #e41645 !important;
+	border-bottom-color: #0059FF !important;
+	color: #0059FF !important;
 }
 
 html .badge-primary {
@@ -2887,7 +2892,7 @@ section.section.section-overlay-opacity-gradient:before {
 }
 
 html .bg-color-light-scale-1 {
-	background-color: #f7f7f7 !important;
+	background-color: #303030 !important;
 }
 
 html .section.bg-color-light-scale-1,
@@ -3339,7 +3344,7 @@ html .toggle-light.toggle-minimal .toggle.active > .toggle-title {
 .thumbnail .zoom,
 .img-thumbnail .zoom,
 .thumb-info-ribbon {
-	background-color: #e41645;
+	background-color: #0059FF;
 }
 
 html .thumb-info .thumb-info-action-icon-primary {
@@ -4161,7 +4166,7 @@ html[dir="rtl"] .tabs.tabs-vertical.tabs-right .nav-tabs li .nav-link.active:foc
 .list.list-icons.list-icons-style-3 li a:first-child > [class*="fa-"]:first-child,
 .list.list-icons.list-icons-style-3 li > .icons:first-child,
 .list.list-icons.list-icons-style-3 li a:first-child > .icons:first-child {
-	background-color: #e41645;
+	background-color: #0059FF;
 }
 
 .list.list-ordened li:before {

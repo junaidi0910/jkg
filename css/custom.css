@@ -1,0 +1,44 @@
+
+  body {
+    padding: 0px;
+    height:100%;
+    position: absolute;
+    width: 100%;
+  }
+  .hr-line {
+      flex-grow: 1;
+      margin-top: 39px;
+      margin-left: 10px;
+      height: 0;
+      border-top: 2px solid hsl(212deg 97% 57%);
+  }
+
+  .body, .main, .section-background-company{
+    height: 100%;
+  }
+
+  .header-company, .content-wrapper-company{
+    /* margin:auto; */
+    margin-right:5%;
+    /* margin-left: 5%; */
+  }
+
+  @font-face{
+    font-family: "Pragmatica"; 
+    src: url(css/fonts/PRAGMATICA_[ALLFONT.NET].TTF) format("truetype");
+  }
+
+  /* h1 {
+    font-size: 10em;
+    font-family: "Pragmatica", sans-serif;
+    font-weight: bold;
+  } */
+
+ .samping-kanan{
+  padding-right: 3%;
+ }
+  
+
+
+
+

@@ -698,12 +698,12 @@ html.mobile-menu-opened.sticky-header-active #header.header-transparent .header-
 		display: block;
 		width: 100%;
 		height: 100px;
-		background-color: #fff;
+		
 		position: absolute;
 		bottom: -48px;
 		left: 0;
-		transform: rotate(2deg);
-		z-index: 100;
+		
+		
 }
 
 @media (max-width: 1199px) {
